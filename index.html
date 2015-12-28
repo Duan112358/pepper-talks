@@ -44,151 +44,925 @@
 
                 <section data-markdown>
                     <script type="text/template">
-                        # FEI - *Mark III*
-                        ### 前端神盾局演讲主题与规范
+                        # *Pepper*
 
-                        <small style="margin-top:17px;">
-                            <a href="#/1">黄玄@FEI</a> 
+                        ### *Wepiao FE Build Tools*
+
+                        <small style="margin-top:17px;line-height:1.3em;">
+                            <a href="#/1">duanhong@wepiao<br><br>Dec 2015</a> 
                         </small>
                     </script>
                 </section>
                 
                 <section data-markdown>
                     <script type="text/template">
-                        <img src="attach/hux.jpg" style="
+                        <img src="attach/me.jpg" style="
                             border: none;
                             box-shadow:none;
-                            width: 200px;
                             -webkit-clip-path: polygon(50% 0, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
                             clip-path: polygon(50% 0, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+                            width: 200px;
                         "/>
 
-                        ## 黄玄
-
-                        在这里描述你自己
+                        ```
+                        export default () => (
+                            <FE-Developer name='段宏'>
+                                <Wepiao> Frontend Infrastructure Team @2015 </Wepiao>
+                                <Weidian> Frontend Team @2015 </Weidian>
+                                <Qfpay> Frontend @2014 </Qfpay>
+                            </FE-Developer>
+                        )
+                        ```
 
                         <small>
-                            <a href="http://huangxuan.me">Blog</a> /
-                            <a href="http://weibo.com/huxpro">@Huxpro</a> /
-                            <a href="https://github.com/huxpro">GitHub</a> /
-                            <a href="http://www.zhihu.com/people/huxpro">知乎</a>
+                            <a href="http://dhong.co">blog@dhong.co</a> 
                         </small>
                     </script>
                 </section>
 
-                <section data-markdown>
-                    <script type="text/template">
-                        ### 副标题
+                <section>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### *Front End Development*
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        ```jade
+                        head
+                            link(rel="stylesheet" href="reset.css")
+                        body
+                            div.content
+                            script(src="jquery.js")
+                            script(src="index.js")
 
-                        # *Header One*
-                    </script>
-                </section>
-
-                <section data-markdown>
-                    <script type="text/template">
-                        <img src="attach/joke/js.jpg" style="width:360px;" />
-
-                        - 图片与列表
-
-                        - Example *List Item*
-                    </script>
-                </section>
-
-                <section data-markdown>
-                    <script type="text/template">
-                        Write Code
-
-                        ```javascript
-                        function foo(){
-                            //...
-                        }
-                        function bar(){
-                            //...
-                        }
                         ```
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *HTML && CSS && JavaScript*
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *How about that?*
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *Ajax<span class="fragment"> -> jQuery</span><span class="fragment"> -> Bootstrap</span><span class="fragment"> -> Angular<span><span class="fragment"> -> React</span>*
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *Front End*
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        ## *CSS*
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        CSS Preprocesser
 
-                        这个会后出来
+                        *LESS*
                         <!-- .element: class="fragment" -->
-                    </script>
-                </section>
 
-                <section data-markdown>
-                    <script type="text/template">
-                        再来一个例子：*Namespace* 模式
-
-                        ```javascript
-                        var MYAPP = {
-                            foo: function(){},
-                            bar: function(){}
-                        }
-
-                        MYAPP.foo();
-                        ```
-
-                        - 出来
+                        *Stylus*
                         <!-- .element: class="fragment" -->
 
-                        - 再出来
+                        *SASS*
                         <!-- .element: class="fragment" -->
-                    </script>
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        ## *JavaScript*
+
+                        <img src="attach/joke/js.jpg" style="border:none;background-color:white;"/> 
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        ## *JS Modules*
+
+                        <small>JS own problem</small>
+                        <!-- .element: class="fragment" -->
+
+                        ## *Compile To JS*
+                        <!-- .element: class="fragment" -->
+
+                        <small>our coding style</small>
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### JS Modules
+
+                        *RequireJS*
+                        <!-- .element: class="fragment" -->
+
+                        *SeaJS*
+                        <!-- .element: class="fragment" -->
+
+                        *CommonJS*
+                        <!-- .element: class="fragment" -->
+
+                        *ES6 import*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Compile to JS
+
+                        *CoffeeScript*
+                        <!-- .element: class="fragment" -->
+
+                        *TypeScript*
+                        <!-- .element: class="fragment" -->
+
+                        *JSX*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *Sum up *
+
+                        CSS preprocesser
+                        <!-- .element: class="fragment" -->
+
+                        Compile to JS
+                        <!-- .element: class="fragment" -->
+
+                        JS Modules Implementation
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ## *Have we done ?*
+                        </script>
+                    </section>
+
+                    <section data-markdown data-transition="fade">
+                        <script type="text/template">
+                        <img src="attach/smile.jpg" style="border:none"/>
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ###  *How about Optimization ?*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        *CSS Minify*
+
+                        *JS Uglify*
+                        <!-- .element: class="fragment" -->
+
+                        *Image Compression*
+                        <!-- .element: class="fragment" -->
+
+                        *Request Combination*
+                        <!-- .element: class="fragment" -->
+
+                        *...*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ###  *How to combine those together?*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        #### Build Automation
+
+                        *Grunt*
+                        <!-- .element: class="fragment" -->
+
+                        *Gulp*
+                        <!-- .element: class="fragment" -->
+
+                        ---
+                        <!-- .element: class="fragment" -->
+
+                        *Browserify*
+                        <!-- .element: class="fragment" -->
+
+                        *Webpack*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *Grunt & Gulp*
+
+                        -  Tasked based
+                        <!-- .element: class="fragment" -->
+                        
+                        -  Organized by file
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *Browserify & Webpack*
+
+                        -  Entry based
+                        <!-- .element: class="fragment" -->
+
+                        -  Dependency Graph
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *Now , what we got ?*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *config, config, config...*
+
+                        ---
+                        <!-- .element: class="fragment" -->
+
+                        ### *complex dev ENV*
+                        <!-- .element: class="fragment" -->
+
+                        ---
+                        <!-- .element: class="fragment" -->
+
+                        ### *really hard to begain with*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+                    <section>
+                        <img src="attach/front-end.jpg"/>
+                    </section>
+
+                    <section data-background="attach/bm_1.jpg" style="background:rgba(0,0,0,.8)">
+                        <code>I fucked up</code>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        <img src="attach/slient.jpeg" style="border:none;width:360px;"/>
+                        </script>
+                    </section>
                 </section>
 
-                <section data-markdown data-background="attach/bm_1.jpg"
-                    style="background:rgba(0,0,0,0.8)"
-                >
-                    <script type="text/template">
-                        - 来个背景图片！！
+                <section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        ## *what we really want ?*
+                        </script>
+                    </section>
 
-                        - 也可以用视频
+                    <section data-markdown>
+                        <script type="text/template">
+                        #### *write a page *
 
-                        - 甚至 GIF
-                    </script>
+                        #### *view in the browser*
+                        <!-- .element: class="fragment" -->
+
+                        #### *debug and coding*
+                        <!-- .element: class="fragment" -->
+
+                        #### *review ...*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ## *Just those...*
+                        </script>
+                    </section>
+
+                </section>
+                <section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        ## *FE is a Stuggle*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ## *After a long time struggle*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ## *Painful but Joyful*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ## *we create a wheel*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ## *Pepper*
+                        </script>
+                    </section>
                 </section>
 
-                <section data-markdown>
-                    <script type="text/template">
-                        尽量不要出现 HTML，实在需要的话用 Jade 代替
+                <section>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ## *What's Pepper ?*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            <img src="attach/true-pepper.jpg" style="width:360px;border:none;"/>
+                            
+                            <div class="fragment">*food more delicious*</div>
+                            
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ## *or*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            <img src="attach/pepper.jpg" style="width:360px;border:none;"/>
+
+                            <div class="fragment">*IronMan more powerful*</div>
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *We need such a pepper*
+
+                        ### *So we create one*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Based on [Webpack](http://webpack.github.io) 
+                        </script>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-markdown data-notes="yinfeng's talk">
+                        <script type="text/template">
+                            ## *React*
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ## *Webpack*
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ## *Thanks [Huxpro](https://github.com/Huxpro) *
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ## [Webpack](http://webpack.github.io/) - Module Bundler
+
+                            (2014)
+
+                            <img src="attach/webpack-icon.png" class="logo" style="width:320px;margin-bottom:-60px" />
+
+                            > *transforming, bundling, or packaging just about any resource or asset*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ## [Motivation](http://webpack.github.io/docs/motivation.html)
+
+                            - Compatibility (CommonJS, AMD, ES6...)
+
+                            - Code Splitting
+
+                            - Loaders & Plugins
+
+                            - Development Tools & Workflow
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### *[Using Loaders](http://webpack.github.io/docs/using-loaders.html)*
+
+                            ```javascript
+                            // webpack.config.js
+                            module.exports = {
+                                entry: './main.js',
+                                output: {
+                                    filename: 'bundle.js'
+                                }{,
+                                module: {
+                                    loaders: [{
+                                        test: /\.js?x$/,
+                                        loader: 'babel-loader'
+                                    }]
+                                }}
+                            }
+                            ```
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ## *[Why only JavaScript?](http://webpack.github.io/docs/motivation.html#why-only-javascript)*
+
+                            > There are many other *static resources* that need to be handled
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### *require()* static resources!
+
+                            ```javascript
+                            // Ensure the stylesheet is loaded
+                            require('./bootstrap.css');
+
+                            // get a URL or DataURI
+                            var myImage = document.createElement('img');
+                            myImage.src = require('./myImage.jpg');
+                            ```
+
+                            <blockquote class="fragment">
+                                <p>They are part of *dependency graph*</p>
+                            </blockquote>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### *require()* anything!
+
+                            ```javascript
+                            // CSS Preprocesser
+                            require('./style.less');
+                            require('./anotherStyle.scss');
+
+                            // Compile-to-JS Language
+                            var myModule = require('./myModule.coffee');
+                            var myTypedModule = require('./myTypedModule.ts');
+                            ```
+
+                            Universal Module System
+                            <!-- .element: class="fragment" -->
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### *Sass & Images*
+
+                            ```javascript
+                            var webpackConfig = {
+                                module: {
+                                    loaders: [{
+                                        test: /\.scss$/,
+                                        loaders: 'style!css!sass'
+                                    }, {
+                                        test: /\.(png|jpg|svg)$/,
+                                        loader: 'url?limit=20480' //20k
+                                    }]
+                                }}
+                            }
+                            ```
+
+                            * Deal with CSS problems
+                            <!-- .element: class="fragment" -->
+
+                            * Inlining your images to DataURI
+                            <!-- .element: class="fragment" -->
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### *[Using Plugins](http://webpack.github.io/docs/using-plugins.html)*
+
+                            ```javascript
+                            var config = {
+                                entry: ['webpack/hot/dev-server', './app/main.js'],
+                                module: {
+                                    loaders: [{
+                                        test: /\.(js|jsx)$/,
+                                        loaders: ['react-hot', 'babel']
+                                    }]
+                                },
+                                plugins: [
+                                    //Enables Hot Modules Replacement
+                                    new webpack.HotModuleReplacementPlugin(),
+                                ],
+                            };
+                            ```
+
+                            #### [React Hot Loader!](http://gaearon.github.io/react-hot-loader/)
+                            <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### *[Code Splitting](http://webpack.github.io/docs/code-splitting.html)*
+
+                            > split your codebase into “chunks” which are loaded on demand.
+
+                            - [Optimizing Common Code](https://github.com/petehunt/webpack-howto#8-optimizing-common-code)
+                            <!-- .element: class="fragment" -->
+
+                            - [Async Loading ](https://github.com/petehunt/webpack-howto#9-async-loading)
+                            <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *webpack is so powerful*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        *we have a good time with webpack*
+                        ```
+                        .
+                        ├── node_modules
+                        │   └── 61 modules
+                        ├── package.json
+                        ├── config.json
+                        ├── src
+                        │   ├── assets
+                        │   ├── components
+                        │   ├── pages
+                        │   └── scss
+                        ├── template.html
+                        ├── webpack.config.js
+                        └── webpack.config.production.js
 
                         ```
-                        script(src="LAB.js" async)
-                        ```
+                        </script>
+                    </section>
 
+                    <section data-markdown>
+                        <script type="text/template">
+                        ## *but, not so good*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ```
+                        .
+                        ├── node_modules
+                        │   └── 61 modules, dev 52
+                        ├── config.json
+                        ├── template.html
+                        ├── webpack.config.js
+                        └── webpack.config.production.js
+
+                        ```
+                        *Too many Dependencies*
+                        <!-- .element: class="fragment" -->
+
+                        *Configuration still bleeding*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *how to resolve those ?*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### *what about split dev out ?*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ```
+                            ➜  demo  tree -L 2
+                            .
+                            ├── mock.js
+                            ├── node_modules
+                            │   └── no dev modules
+                            ├── package.json
+                            ├── pepper.config.js
+                            ├── src
+                            │   ├── assets
+                            │   ├── components
+                            │   ├── pages
+                            │   └── scss
+                            └── template.html
+                            ```
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *we found our way*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *About two weeks harkworking*
+
+                        ---
+                        <!-- .element: class="fragment" -->
+                        
+                        ### *pepper was born out*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+                </section>
+
+                <section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        > *`npm install we-pepper -g`*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ```
+                        ➜  $  pepper
+                        ? 选择要执行的任务:  (Use arrow keys)
+                        ❯ 升级pepper
+                          初始化新项目 (es5)
+                          初始化新项目 (es6)
+                          开发调试
+                          创建新页面
+                          创建新组件
+                          项目打包
+
+                        ```
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        > 升级 Pepper
+
+                        *pepper ungrade*
+                        <!-- .element: class="fragment" -->
+
+                        *||*
+                        <!-- .element: class="fragment" -->
+
+                        *npm install we-pepper -g*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        > 初始化新项目
+
+                        *pepper init proj_name*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        > 开发调试
+
+                        *pepper start [-p PORT]*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        > 创建新页面
+
+                        *pepper page PAGE_NAME*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        > 创建新组件
+
+                        *pepper component COMPONENT_NAME*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        > 项目打包
+
+                        *pepper [test, pre, release]*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *so, How pepper works ?*
+                        </script>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        > About *<span style="text-transform:lowercase;">pepper.config.js</span>*
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ###  *<span style="text-transform:lowercase;">pepper.json <small class="fragment">no comments allowed</small></span>*
+
+                        or
+                        <!-- .element: class="fragment" -->
+
+                        ###  *<span style="text-transform:lowercase;">pepper.config.js</span>*
+                        <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### *URL*
+                            ```javascript
+                           
+                            // CDN domain, or just leave it blank if not using
+                            "static": {
+                                "start"         :   "",                         // here use relative path
+                                "test"          :   "",
+                                "pre"           :   "http://static.wepiao.com/",// here use CDN domain
+                                "release"       :   "http://static.wepiao.com/" // here use CDN domain
+                            },
+
+                            // API base entry
+                            // config `mock.js` for CROS solution
+                            "api": {
+                                "start"         :   "",                         // local api base entry
+                                "test"          :   "",
+                                "pre"           :   "http://wx.wepiao.com",     // online api base entry
+                                "release"       :   "http://wx.wepiao.com"
+                            }
+
+                            ```
+                            *split out resource and api*
+                            <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### *DEMO*
+                            ```javascript
+
+                            // pepper start
+                            console.log(API, STATIC); // '', ''
+
+                            ...
+
+                            // pepper release
+                            console.log(API, STATIC); // 'http://wx/wepiao.com', 'http://static.wepiao.com/'
+                            ```
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### *bundle common libs*
                         ```javascript
-                        $LAB.script("framework.js").wait()
-                            .script("plugin.framework.js")
-                            .script("myplugin.framework.js").wait()
-                            .script("init.js");
+
+                        // third patry libs to bundle,
+                        // like react-router, fetch
+                        "vendor": ["react", "react-dom"],
+
                         ```
-                    </script>
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### *alias relative path*
+
+                            ```javascript
+
+                            // dir alias, could use globally, despite of CWD
+                            "alias": {
+                                "scss"          :   "scss",
+                                "wepiao"        :   "components",
+                                "assets"        :   "assets",
+                                "utils"         :   "utils"
+                            } 
+
+                            ```
+
+                            *ignore the '../../..'*
+                            <!-- .element: class="fragment" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### *DEMO*
+                            ```javascript
+                            require('assets/path/to/image')
+
+                            import styles from 'scss/your/style/path'
+                            
+                            import  API from 'utils/api' 
+
+                            ```
+                        </script>
+                    </section>
                 </section>
-
-                <section data-markdown>
-                    <script type="text/template">
-                        ## [CommonJS](http://www.commonjs.org/) - API Standard
-
-                        (2009.08)
-
-                        <img src="attach/commonjs-logo.png" class="logo" style="max-width:200px" />
-
-                        > 在这里介绍类库！
-                    </script>
+                <section>
+                    <section data-markdown>
+                    > About mock.js
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### *data mock*
+                            ```javascript
+                                module.exports = [{
+                                    path: /\/apis/,
+                                    method: 'get',
+                                    data: function(options) {
+                                        return [{          // response data
+                                            id: 1,
+                                            first: '@FIRST',
+                                        }, {
+                                            id: 2,
+                                            first: '@FIRST',
+                                        }, {
+                                            id: 3,
+                                            first: '@FIRST',
+                                        }]
+                                    }
+                                }]; 
+                            ```
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### *url proxy*
+                            ```javascript
+                                module.exports = [{
+                                    path: '/search',
+                                    proxy: 'http://github.com',
+                                    pathRewrite: {
+                                        '^/search': '/search/users'
+                                    }
+                                }]; 
+                            ```
+                        </script>
+                    </section>
                 </section>
-
-                <section data-markdown>
-                    <script type="text/template">
-                        ### 有时候你会需要表格
-
-                        <br>
-
-                         硬盘 I/O | | 网速 I/O
-                        -----|------- | ------|-------
-                        HDD: | *100 MB/s*  | ADSL: | *4 Mb/s*
-                        SSD: | *600 MB/s*  | 4G: | *100 Mb/s*
-                        SATA-III:| *6000 Mb/s*  | Fiber: | *100 Mb/s*
-
-                    </script>
-                </section>
-
 
                 <style>
                     .bloom{
@@ -199,15 +973,6 @@
                         transform: scale(1);
                     }
                 </style>
-                <section data-markdown>
-                    <script type="text/template">
-                        <div class="bloom">
-                            <p>如果无聊的话你可以自己加动画或者自定义样式</p>
-                            <h1>*Bloom!*</h1>
-                            <small>不过请写在行内，永远不要改引用的 CSS</small>
-                        </div>
-                    </script>
-                </section>
                 
                 <!--永远保留提问页面 -->
                 <section data-markdown>
@@ -220,30 +985,19 @@
                 <!--如果需要，可以替换上自己的二维码-->
                 <section data-markdown>
                     <script type="text/template">
-                        <img src="attach/qrcode.png" style="
-                            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+                        <img src="attach/qrcode.jpg" style="
+                            border: none;
                             width: 350px;
-                            height: 350px;
                         " />
 
-                        #### [huangxuan.me/js-module-7day](http://huangxuan.me/js-module-7day/#/)
-
-                        <small style="font-size: 0.85em">
-                        *[Open Source @ Github](https://github.com/Huxpro/js-module-7day)*
-                        </small>
+                        #### [pepper](http://dhong.co/ppts/pepper)
                     </script>
                 </section>
                 
                 <section style="text-align: left;">
                     <h1>THE END</h1>
 
-                    <h5>黄玄@FEI</h5>
-                    <small>
-                        <a href="http://huangxuan.me">Blog</a> /
-                        <a href="http://weibo.com/huxpro">@Huxpro</a> /
-                        <a href="https://github.com/huxpro">GitHub</a> /
-                        <a href="http://www.zhihu.com/people/huxpro">知乎</a>
-                    </small>
+                    <h5><span style="text-transform:none;">duanhong@wepiao</span></h5>
                 </section>
             </div>
         </div>
@@ -277,21 +1031,21 @@
 
         </script>
 
-        <script type="text/javascript">
-            function codeEditor(){
-                var nodes = document.querySelectorAll("code");
-                for (var i = 0; i < nodes.length; i++) {
-                    nodes[i].setAttribute("contenteditable", '');
-                }
-                console.log('code editable now.');
-            }
-            window.codeEditor = codeEditor;
+        <!-- <script type="text/javascript"> -->
+        <!--     function codeEditor(){ -->
+        <!--         var nodes = document.querySelectorAll("code"); -->
+        <!--         for (var i = 0; i < nodes.length; i++) { -->
+        <!--             nodes[i].setAttribute("contenteditable", ''); -->
+        <!--         } -->
+        <!--         console.log('code editable now.'); -->
+        <!--     } -->
+        <!--     window.codeEditor = codeEditor; -->
 
-            document.addEventListener('DOMContentLoaded', function(){
-                setTimeout(function(){
-                    codeEditor();
-                },1000)
-            })
-        </script>
+        <!--     document.addEventListener('DOMContentLoaded', function(){ -->
+        <!--         setTimeout(function(){ -->
+        <!--             codeEditor(); -->
+        <!--         },1000) -->
+        <!--     }) -->
+        <!-- </script> -->
     </body>
 </html>
